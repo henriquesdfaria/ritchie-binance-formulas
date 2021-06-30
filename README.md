@@ -1,5 +1,34 @@
 <!-- markdownlint-disable MD013-->
 
+# Ritchie Binance Formulas
+
+With this formula you can check binance prices as below
+
+```bash
+$ rit binance show price
+
+? Select a crypto coin: [Use arrows to move, type to filter, ? for more help]
+> BTC
+  ETH
+  DOGE
+  
+? Select a binance currency:   [Use arrows to move, type to filter, ? for more help]
+> BRL
+  USDT
+  
+175,669 # Then the crypto coin price shows
+
+```
+
+## Pre-requisites
+
+1. Install Ritchie CLI
+2. Install this formula repo (Just add the repo https://github.com/henriquesdfaria/ritchie-binance-formulas)
+
+You can follow the steps below, thank you!
+
+
+
 # Ritchie Formula Repo
 
 ![Rit banner](/docs/img/ritchie-banner.png)
