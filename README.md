@@ -28,6 +28,8 @@ $ rit binance show price
 You can follow the steps below, thank you!
 
 
+---
+
 
 # Ritchie Formula Repo
 
