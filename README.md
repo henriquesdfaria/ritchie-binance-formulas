@@ -2,7 +2,7 @@
 
 # Ritchie Binance Formulas
 
-With this formula you can check binance prices as below
+With this formula you can check Binance crypto prices as below
 
 ```bash
 $ rit binance show price
