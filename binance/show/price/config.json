@@ -1,0 +1,30 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-node-builder",
+  "inputs": [
+    {
+      "items": [
+        "BTC",
+        "ETH",
+        "DOGE"
+      ],
+      "label": "Select a crypto coin: ",
+      "name": "rit_input_coin",
+      "required": true,
+      "tutorial": "Select a crypto coin to see the price",
+      "type": "text"
+    },
+    {
+      "items": [
+        "BRL",
+        "USDT"
+      ],
+      "label": "Select a binance currency: ",
+      "name": "rit_input_currency",
+      "required": true,
+      "tutorial": "Select a binance currency to see the desired crypto coin price",
+      "type": "text"
+    }
+  ],
+  "template": "node",
+  "templateRelease:": "2.16.0"
+}
