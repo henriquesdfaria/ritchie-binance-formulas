@@ -1,4 +1,3 @@
-const clc = require("cli-color")
 const fetch = require('node-fetch')
 
 function Run(inputCoin, inputCurrency) {
