@@ -9,7 +9,7 @@ function Run(inputCoin, inputCurrency) {
         })
             .then(res => res.json())
             .then(coin => console.log(new Intl.NumberFormat().format(coin.price)))
-            .catch(err => console.error("Sorry! Could not get the BTC price, please try again later."))
+            .catch(err => console.error("Sorry! Could not get the coin price, please try again later."))
 }
 
 const formula = Run
